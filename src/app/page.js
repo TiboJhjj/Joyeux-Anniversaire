@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <main className={styles.main}>
-            <h1>Joyeux anniversaire Tristan !</h1>
+            <h1>जन्मदिनस्य शुभकामना त्रिस्टन!</h1>
             <Image src="/photo.png" alt="Tristant" width={500} height={500} />
             <audio controls autoPlay>
                 <source src={backgroundMusic} type="audio/mpeg" />
